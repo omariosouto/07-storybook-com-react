@@ -1,0 +1,23 @@
+{
+  "name": "07-storybook-com-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/omariosouto/07-storybook-com-react.git",
+  "author": "Mario Souto <13791385+omariosouto@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "dependencies": {
+    "next": "^12.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.1",
+    "@types/react": "^18.0.14",
+    "typescript": "^4.7.4"
+  }
+}
