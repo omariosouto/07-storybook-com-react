@@ -1,0 +1,35 @@
+{
+  "name": "07-storybook-com-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/omariosouto/07-storybook-com-react.git",
+  "author": "Mario Souto <13791385+omariosouto@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "next": "^12.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-webpack5": "^6.5.9",
+    "@storybook/manager-webpack5": "^6.5.9",
+    "@storybook/react": "^6.5.9",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/node": "^18.0.1",
+    "@types/react": "^18.0.14",
+    "babel-loader": "^8.2.5",
+    "typescript": "^4.7.4"
+  }
+}
